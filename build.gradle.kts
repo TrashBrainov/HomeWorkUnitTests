@@ -17,6 +17,13 @@ dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter")
     implementation("io.qameta.allure:allure-junit5:2.25.0")
     testImplementation("io.qameta.allure:allure-junit5")
+    implementation("org.seleniumhq.selenium:selenium-java:4.18.1")
+    testImplementation("org.assertj:assertj-core:3.25.3")
+    implementation("commons-io:commons-io:2.16.0")
+    implementation("org.apache.httpcomponents.client5:httpclient5:5.3.1")
+    // https://mvnrepository.com/artifact/io.rest-assured/rest-assured
+    testImplementation("io.rest-assured:rest-assured:5.5.5")
+    implementation("com.fasterxml.jackson.core:jackson-databind:2.17.0")
 }
 
 tasks.test {
