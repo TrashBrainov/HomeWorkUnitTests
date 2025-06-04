@@ -1,0 +1,29 @@
+{
+  "type": "object",
+  "properties": {
+    "sold": {
+      "type": "integer"
+    },
+    "solt": {
+      "type": "integer"
+    },
+    "string": {
+      "type": "integer"
+    },
+    "pending": {
+      "type": "integer"
+    },
+    "available": {
+      "type": "integer"
+    },
+    "peric": {
+      "type": "integer"
+    },
+    "unknown": {
+      "type": "integer"
+    },
+    "INVALID_ENUM_VALUE": {
+      "type": "integer"
+    }
+  }
+}

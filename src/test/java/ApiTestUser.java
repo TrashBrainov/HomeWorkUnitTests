@@ -1,8 +1,13 @@
-import org.junit.jupiter.api.Test;
+import controllers.UserController;
+import io.qameta.allure.Feature;
+import io.restassured.response.Response;
+import org.junit.jupiter.api.*;
 
 
 import static io.restassured.RestAssured.given;
+import static org.assertj.core.api.Assertions.assertThat;
 import static org.hamcrest.Matchers.equalTo;
+import static testdata.ApiTestData.DEFAULT_USER;
 
 
 public class ApiTestUser {
