@@ -1,14 +1,17 @@
+
+import extensions.AllureExtension;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.junit.jupiter.api.extension.ExtendWith;
 import pages.LoginPage;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertThrows;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+
+@ExtendWith(AllureExtension.class)
 public class LoginPagesTests {
 
     LoginPage login;
