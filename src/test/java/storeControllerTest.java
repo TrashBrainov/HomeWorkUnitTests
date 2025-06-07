@@ -16,4 +16,5 @@ public class storeControllerTest {
                 body(matchesJsonSchemaInClasspath("jsonsSchema/storeSchema.json"));
     }
 
+
 }
