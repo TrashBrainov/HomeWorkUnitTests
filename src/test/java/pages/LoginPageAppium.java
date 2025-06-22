@@ -18,16 +18,15 @@ public class LoginPageAppium extends BasePageAppium {
     @FindBy(id = "login-alert")
     private WebElement loginAlert;
 
-    private final String url = "https://bonigarcia.dev/selenium-webdriver-java/login-form.html";
+    private String url = "https://bonigarcia.dev/selenium-webdriver-java/login-form.html";
 
     public LoginPageAppium(WebDriver driver) {
         super(driver);
     }
-
     public static LoginPageAppium open() {
         driver.get(url);
         return this;
-    }
+   }
 
     public LoginPageAppium enterUsername(String username) {
         enterText(usernameField, username);

@@ -35,7 +35,14 @@ dependencies {
     implementation("com.codeborne:selenide:7.3.1")
     implementation("io.appium:java-client:8.5.1")
     implementation("io.github.bonigarcia:webdrivermanager:5.4.1")
+    implementation("jakarta.persistence:jakarta.persistence-api:3.2.0-M2")
+    implementation("com.h2database:h2:2.2.224")
+    implementation("org.hibernate.orm:hibernate-core:6.5.2.Final")
+    testImplementation("com.h2database:h2")
+    implementation("org.springframework:spring-jdbc:5.3.23")
+    testImplementation("org.springframework:spring-test:5.3.23")
 }
+
 
 tasks.test {
     useJUnitPlatform()

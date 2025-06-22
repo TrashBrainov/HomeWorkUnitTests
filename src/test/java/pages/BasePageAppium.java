@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
 public abstract class BasePageAppium {
-    protected WebDriver driver;
+    protected static WebDriver driver;
     protected WebDriverWait wait;
 
     public BasePageAppium(WebDriver driver) {
