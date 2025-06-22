@@ -1,4 +1,4 @@
-package configurations;
+package config;
 
 public class TestConfig {
     public static final String BASE_URL = "https://petstore.swagger.io/v2/";

@@ -1,6 +1,6 @@
 package controllers;
 
-import configurations.TestConfig;
+import config.TestConfig;
 import io.qameta.allure.Step;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;

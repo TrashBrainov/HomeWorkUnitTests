@@ -33,6 +33,8 @@ dependencies {
     testAnnotationProcessor("org.projectlombok:lombok:1.18.32")
     implementation("org.apache.pdfbox:pdfbox:2.0.31")
     implementation("com.codeborne:selenide:7.3.1")
+    implementation("io.appium:java-client:8.5.1")
+    implementation("io.github.bonigarcia:webdrivermanager:5.4.1")
 }
 
 tasks.test {

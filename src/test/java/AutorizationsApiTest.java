@@ -1,4 +1,4 @@
-import configurations.TestConfig;
+import config.TestConfig;
 import org.junit.jupiter.api.Test;
 
 

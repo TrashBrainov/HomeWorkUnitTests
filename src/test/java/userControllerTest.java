@@ -3,11 +3,10 @@ import models.User;
 import org.assertj.core.api.SoftAssertions;
 import org.junit.jupiter.api.Test;
 
-import static configurations.TestConfig.BASE_URL;
+import static config.TestConfig.BASE_URL;
 import static io.restassured.RestAssured.given;
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
 import static io.restassured.path.json.JsonPath.from;
-import static org.hamcrest.Matchers.equalTo;
 
 public class userControllerTest {
 
