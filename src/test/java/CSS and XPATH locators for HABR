@@ -1,0 +1,30 @@
+Страница сайта https://habr.com/ru/articles/
+
+CSS локаторы
+Id -> By.cssSelector("#light-colors")
+Class name -> By.cssSelector(".tm-page-width")
+Name -> By.cssSelector("[name='twitter:image']")
+Tag -> By.cssSelector("meta")
+Attribute -> By.cssSelector("[property='og:description']")
+Tag + Class -> By.cssSelector("header.tm-header")
+Tag + Id -> By.cssSelector("link#dark-colors")
+Tag + Attribute -> By.cssSelector("meta[content='#629FBC']")
+Class + Class -> By.cssSelector(".tm-page__main_has-sidebar.tm-page__main")
+Prefix (начинается с указанного значения) -> By.cssSelector("[src^='https://']")
+Suffix (заканчивается на указанное значение) -> By.cssSelector("[href$='js']")
+Substring (содержащему указанное значение) -> By.cssSelector("[href*='-web']")
+Exact match (полное соответствие значению) -> By.cssSelector("link[href='https://assets.habr.com/habr-web/css/theme/light-v1.css']")
+Child (потомок) -> By.cssSelector("div.tm-layout__wrapper header[data-test-id='header']")
+Nth-child (n-й потомок) -> By.cssSelector("div.tm-layout__wrapper header:nth-child(2) span")
+
+
+XPATH локаторы
+По абсолютному пути -> By.xpath("//*[@id="app"]/div/div[3]/div/div/div[2]/div/ul/li[1]/a")
+По относительному пути -> By.xpath("//img")
+По тегу -> By.xpath("//meta")
+По тексту элемента -> By.xpath("//a[text()='Статьи']")
+По частичному тексту -> By.xpath("//a[contains(text(), 'потоки')]")
+По атрибуту -> By.xpath("//*[@data-test-id='main-menu-item']")
+По потомку -> By.xpath("//div/header[@data-test-id='header']")
+По предку -> By.xpath("//header[@data-test-id='header']/..")
+

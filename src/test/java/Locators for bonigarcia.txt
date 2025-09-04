@@ -1,0 +1,57 @@
+Локатор для <h1 class="display-4">Hands-On Selenium WebDriver with Java</h1>
+By.className("display-4")
+
+Локатор для <h1 class="display-6">Web form</h1>
+By.className("display-6")
+
+Локатор для <img class="img-fluid" src="img/hands-on-icon.png">
+By.className("img-fluid")
+
+
+
+Локаторы для
+            <label class="form-label w-100">Text input
+              <input type="text" class="form-control" name="my-text" id="my-text-id" myprop="myvalue">
+            </label>
+By.xpath("//label[contains(text(), 'Text input')]")
+By.xpath("//label/input[@name='my-text']") или By.id("my-text-id") или By.name("my-text")
+
+
+Локаторы для
+            <label class="form-label w-100">Password
+              <input type="password" class="form-control" name="my-password" autocomplete="off">
+            </label>
+By.xpath("//label[contains(text(), 'Password')]")
+By.xpath("//label/input[@name='my-password']") или By.name("my-password")
+
+
+Локаторы для
+            <label class="form-label w-100">Textarea
+              <textarea class="form-control" name="my-textarea" rows="3"></textarea>
+            </label>
+By.xpath("//label[contains(text(), 'Textarea')]")
+By.cssSelector("textarea.form-control") или By.name("my-textarea")
+
+
+Локаторы для
+            <label class="form-label w-100">Disabled input
+              <input class="form-control" type="text" name="my-disabled" placeholder="Disabled input" disabled="">
+            </label>
+By.xpath("//label[contains(text(), 'Disabled input')]")
+By.xpath("//label/input[@name='my-disabled']") или By.name("my-disabled")
+
+
+Локаторы для
+           <label class="form-label w-100">Readonly input
+              <input class="form-control" type="text" name="my-readonly" value="Readonly input" readonly="">
+            </label>
+By.xpath("//label[contains(text(), 'Readonly input')]")
+By.xpath("//label/input[@name='my-readonly']") или By.name("my-readonly")
+
+
+Локатор для
+<a href="./index.html">
+                Return to index
+              </a>
+By.cssSelector("a[href='./index.html']")
+
