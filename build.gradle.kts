@@ -17,6 +17,7 @@ dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter")
     implementation("io.qameta.allure:allure-junit5:2.25.0")
     testImplementation("io.qameta.allure:allure-junit5")
+    implementation("org.seleniumhq.selenium:selenium-java:4.18.1")
 }
 
 tasks.test {
